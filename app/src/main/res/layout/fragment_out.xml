@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".OutFragment">
+
+    <TextView
+        android:layout_width="253dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Datos del usuario"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="148dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/ic_people_outline_black_24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/logout"
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="208dp"
+        android:background="@drawable/bordeado"
+        android:padding="10sp"
+        android:gravity="center"
+        android:text="@string/out"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

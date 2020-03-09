@@ -1,0 +1,2 @@
+rootProject.name='PetCareV2.0'
+include ':app'
