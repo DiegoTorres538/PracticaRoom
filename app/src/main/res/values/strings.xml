@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PetCareV2.0</string>
+    <string name="app_name">PetCareRoom</string>
     <string name="login_user">Usuario</string>
     <string name="password">Contraseña</string>
     <string name="iniciar_login">Iniciar Sesión</string>
@@ -40,5 +40,11 @@
     <string name="guardar">guardar</string>
     <string name="contacto">Datos de contacto</string>
     <string name="review">Reseña</string>
+    <string name="update_count">Actualizar Perfil</string>
+    <string name="name_user">Nombre</string>
+    <string name="user">Usuario</string>
+    <string name="city">Ciudad</string>
+    <string name="email">Correo</string>
+    <string name="save">Guardar</string>
 
 </resources>

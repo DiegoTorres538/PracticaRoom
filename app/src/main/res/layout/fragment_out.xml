@@ -4,10 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/fragment_out"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".OutFragment">
 
     <TextView
+        android:id="@+id/datos"
         android:layout_width="253dp"
         android:layout_height="126dp"
         android:layout_marginTop="20dp"
@@ -16,17 +18,20 @@
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+        app:layout_constraintTop_toBottomOf="@+id/imgalery" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/imgalery"
         android:layout_width="148dp"
         android:layout_height="101dp"
-        android:layout_marginTop="8dp"
-        android:src="@drawable/ic_people_outline_black_24dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        android:backgroundTint="#FFFFFF"
+        android:src="@drawable/ic_camera_alt_black_24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
     <TextView
         android:id="@+id/logout"
